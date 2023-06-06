@@ -25,11 +25,10 @@
 #include "lcd.h"
 #include "state.h"
 
- 
-	 uint32_t timer;
-	 char buffer_Tranmit[30];
-	 uint8_t array[7]={0};
-	 uint8_t gio,phut,giay,thu,ngay,thang,nam;
+uint32_t timer;
+char buffer_Tranmit[30];
+uint8_t array[7]={0};
+uint8_t gio,phut,giay,thu,ngay,thang,nam;
 
 
 void SysTick_Handler(void)  // software timer
